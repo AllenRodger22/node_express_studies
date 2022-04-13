@@ -4,11 +4,12 @@
   "description": "study about Express framework on Node.js :)",
   "main": "app3.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"server.js"
   },
   "author": "Alan Roger",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "morgan": "^1.9.1"
   }
 }
